@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+%default-element-style {
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  border: 1px solid rgb(131, 120, 120);
+}
+
+%flex-aling-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.currency-converter {
+  max-width: 900px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(201, 197, 197);
+
+  &__row {
+    @extend %flex-aling-items-center;
+    justify-content: space-between;
+    
+    &:first-child {
+      margin-bottom: 20px
+    }
+  }
+
+  &__icon {
+    color: rgb(156, 147, 147);
+  }
+
+  &__rub {
+    @extend %default-element-style;
+    padding: 9px
+  }
+
+  &__convert-button {
+    button {
+      @extend %default-element-style;
+      background-color: #2d5efb;
+      color: white;
+      transition: 300ms linear;
+
+      &:hover {
+        background-color: #2750da;
+      }
+    }
+  }
+}
+
+.convert-button {
+  &__text {
+    margin-right: 5px;
+  }
+
+  &__icon {
+    font-size: 16px;
+  }
+}

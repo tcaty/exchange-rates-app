@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.wrong-data-to-convert-message {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+}
+
+.text-with-icon {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin: 0px 5px 5px 0px;
+  }
+
+  &__icon {
+    font-size: 20px;
+  }
+}

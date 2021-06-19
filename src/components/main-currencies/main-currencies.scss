@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+
+
+.main-currencies {
+  margin-bottom: 15px;
+}
+
+.main-currency {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &__separator {
+    margin: 0px 5px 0px 5px;
+  }
+
+  img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+}
+

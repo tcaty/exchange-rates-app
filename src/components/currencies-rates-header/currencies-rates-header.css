@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+.currencies-rates-header__row div {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.currencies-rates-header__row div:nth-child(1) {
+  margin-right: 35px;
+}
+
+.currencies-rates-header__row div:nth-child(2) {
+  margin-right: 50px;
+}
+
+.currencies-rates-header__row div:nth-child(3) {
+  margin-right: 223px;
+}
+
+.currencies-rates-header__row div:nth-child(4) {
+  margin-right: 250px;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+// .drop-down-currency-menu {
+
+// }
+
+
+.currency-menu {
+  &__toggle-button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid rgb(131, 120, 120);
+  }
+
+  &__items {
+    position: absolute;
+    z-index: 2;
+    height: 170px;
+    overflow-y: scroll;
+    border-bottom: 1px solid rgb(131, 120, 120);
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border-right: 1px solid rgb(131, 120, 120);
+    border-left: 1px solid rgb(131, 120, 120);
+    background-color: white;
+    transition: 300ms linear;
+
+    &:hover {
+      color: #2d5efb;
+    }
+  }
+}
+
+.toggle-button {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5px;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.currency-converter-title {
+  margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.currency-converter-title__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.currency-converter-title__title h1 {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.currency-converter-title__title svg {
+  font-size: 18px;
+  height: 2em;
+  width: 2em;
+}
+
+.currency-converter-title__note {
+  font-size: 18px;
+  opacity: 0.7;
+}

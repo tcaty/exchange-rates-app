@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.greeting-information {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.greeting-information__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block__title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.info-block__text {
+  font-size: 18px;
+  line-height: 1.8rem;
+}

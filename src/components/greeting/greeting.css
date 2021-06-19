@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.greeting {
+  margin: 20px auto;
+  max-width: 1080px;
+}
+
+.greeting__title {
+  line-height: 2rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}

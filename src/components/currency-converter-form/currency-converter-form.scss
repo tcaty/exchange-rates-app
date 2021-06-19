@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+%flex-center-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%block-style-template {
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.currency-converter-form {
+  width: 100%;
+  @extend %flex-center-space-between;
+
+  &__input {
+    input {
+      @extend %block-style-template;
+      border: 1px solid rgb(131, 120, 120);
+    }
+  }
+
+  &__convert-button {
+    button {
+      @extend %flex-center-space-between;
+      @extend %block-style-template;
+      background-color: #2d5efb;
+      color: white;
+      transition: 300ms linear;
+
+      &:hover {
+        background-color: #2750da;
+      }
+    }
+  }
+}
+
+.convert-button {
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    svg {
+      margin-top: 4px;
+    }
+  }
+}

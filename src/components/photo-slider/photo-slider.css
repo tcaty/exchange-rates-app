@@ -1,0 +1,47 @@
+.photo-slider {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.photo {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.photo img {
+  width: 30rem;
+  margin: auto;
+}
+
+.photo_active {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: white;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #1868ae;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}

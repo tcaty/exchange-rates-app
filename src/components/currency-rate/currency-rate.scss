@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.currency-rate__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 2px;
+
+  div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin: 5px 0px;
+  }
+
+  &:hover {
+    background-color: #c6d7eb;
+  }
+}
+
+.currency-rate__num-code {
+  text-align: left;
+  width: 60px;
+}
+
+.currency-rate__char-code {
+  text-align: center;
+  width: 60px;
+}
+
+.currency-rate__nominal {
+  text-align: center;
+  width: 50PX;
+}
+
+.currency-rate__name {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 380px;
+}
+
+.currency-rate__rate {
+  cursor: pointer;
+  text-align: right;
+  width: 70px;
+}
+
+.currency-rate__row_hover {
+  transition: 0.2s;
+  background-color:rgb(211, 230, 255);
+}
+
+.currency-rate__row_increased {
+  .currency-rate__rate {
+    color: rgb(7, 194, 7);
+  }
+}
+
+.currency-rate__row_fell {
+  .currency-rate__rate {
+    color: rgb(255, 36, 0);
+  }
+}

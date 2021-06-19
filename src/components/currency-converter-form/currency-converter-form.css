@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.currency-converter-form, .currency-converter-form__convert-button button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency-converter-form__input input, .currency-converter-form__convert-button button {
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.currency-converter-form {
+  width: 100%;
+}
+
+.currency-converter-form__input input {
+  border: 1px solid #837878;
+}
+
+.currency-converter-form__convert-button button {
+  background-color: #2d5efb;
+  color: white;
+  transition: 300ms linear;
+}
+
+.currency-converter-form__convert-button button:hover {
+  background-color: #2750da;
+}
+
+.convert-button__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.convert-button__icon svg {
+  margin-top: 4px;
+}

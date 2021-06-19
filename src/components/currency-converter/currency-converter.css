@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.currency-converter__rub, .currency-converter__convert-button button {
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  border: 1px solid #837878;
+}
+
+.currency-converter__row {
+  display: flex;
+  align-items: center;
+}
+
+.currency-converter {
+  max-width: 900px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c9c5c5;
+}
+
+.currency-converter__row {
+  justify-content: space-between;
+}
+
+.currency-converter__row:first-child {
+  margin-bottom: 20px;
+}
+
+.currency-converter__icon {
+  color: #9c9393;
+}
+
+.currency-converter__rub {
+  padding: 9px;
+}
+
+.currency-converter__convert-button button {
+  background-color: #2d5efb;
+  color: white;
+  transition: 300ms linear;
+}
+
+.currency-converter__convert-button button:hover {
+  background-color: #2750da;
+}
+
+.convert-button__text {
+  margin-right: 5px;
+}
+
+.convert-button__icon {
+  font-size: 16px;
+}

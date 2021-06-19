@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.currency-details {
+  &__text {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  &__name {
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    transition: font-size 200ms;
+
+    &_mouse-on {
+      font-size: 26px;
+      transition: font-size 200ms;
+    }
+  }
+}
+
+.text {
+  &__note {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+  }
+}
+
