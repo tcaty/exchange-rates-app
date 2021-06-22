@@ -4,7 +4,7 @@ import { MdErrorOutline } from 'react-icons/md';
 import './wrong-data-to-convert-message.css';
 
 
-const WrondDataToConvertMessage = () => {
+const WrongDataToConvertMessage = () => {
   return (
     <div className="wrong-data-to-convert-message">
       <div className="wrong-data-to-convert-message__message-content">
@@ -21,4 +21,4 @@ const WrondDataToConvertMessage = () => {
 };
 
 
-export default WrondDataToConvertMessage;
+export default WrongDataToConvertMessage;
