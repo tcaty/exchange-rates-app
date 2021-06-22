@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaEquals } from 'react-icons/fa';
 
-import WrondDataToConvertMessage from '../wrong-data-to-convert-message';
+import WrongDataToConvertMessage from '../wrong-data-to-convert-message';
 import { withErrorBoundry } from '../hoc-helpers';
 
 import './currency-conversion-result.css';
@@ -46,7 +46,7 @@ class CurrencyConversionResult extends Component {
     }
 
     if (!this.checkCorrectDataToConvert(selectedCurrency, numberToConvert, conversionResult)) {
-      return <WrondDataToConvertMessage />
+      return <WrongDataToConvertMessage />
     }
 
     return (
