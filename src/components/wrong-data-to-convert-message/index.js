@@ -1,4 +1,4 @@
-import WrondDataToConvertMessage from './wrong-data-to-convert-message';
+import WrongDataToConvertMessage from './wrong-data-to-convert-message';
 
 
-export default WrondDataToConvertMessage;
+export default WrongDataToConvertMessage;
