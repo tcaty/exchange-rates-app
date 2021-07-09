@@ -1,4 +1,4 @@
-# Exchange rates app
+# Exchange rates app (react)
 
 ## Main page
 ![image](https://user-images.githubusercontent.com/79706809/122736814-159e9900-d289-11eb-8a51-32486beb0306.png)
